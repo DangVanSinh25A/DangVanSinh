@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+.container{
+    width: 400px;
+    height: 1000px;
+    background-color: black;
+}
+.form{
+    width: 100%;
+    height: 100%;
+}
+.container_login{
+    display: flex;
+    width: 400px;
+}
+.login_text{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+.login_enter{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    margin-left: 20px;
+}
+.name_label{
+    display: inline-block;
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.name_label_sex{
+    display: flex;
+    color:white;
+    align-items: center;
+}
+.sex_item{
+    display: flex;
+    gap: 30px;
+}
+.sex_items{
+    display: flex;
+    margin-top: 22px;
+}
+.name_label_paragrap{
+    color: white;
+}
+input{
+    padding: 5px;
+}
+.container_login_checkbox{
+    margin-top: 15px;
+    height: 5%;
+    margin-left: 20%;
+}
+.container_login_submit{
+    margin-left: 70%;
+}
+input[type="submit"]{
+    padding: 15px 30px;
+    background-color: chocolate;
+}
+.icon{
+    display: flex;
+    margin-top: 15px;
+}
+
+.icon_item{
+    display: flex;
+    background-color: chocolate;
+    height: 35px;
+    width: 40px;
+    align-items: center;
+    justify-content: center;
+}
+input[type=submit]{
+    color: white;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
