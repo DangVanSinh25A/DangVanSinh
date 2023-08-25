@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+.container{
+    height: 500px;
+    width: 400px;
+    background-color: rgb(240, 237, 228);
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 3px;
+    box-shadow: 4px 4px 2px 0px slategray;
+}
+h1{
+    text-align: center;
+    font-weight: lighter;
+}
+.login_radio{
+    margin: auto;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    gap:45px;
+    width: 320px;
+    border-top:2px solid darkgray;
+    border-bottom: 2px solid darkgray;
+    margin-top: 15px;
+}
+.login_radio1{
+    margin: auto;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    gap:45px;
+    width: 320px;
+    margin-top: 15px;
+}
+.login_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+input[type="text"]{
+    padding: 8px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.icon_radio{
+    position: relative;
+    cursor: pointer;
+}
+.icon{
+    display: flex;
+}
+.icon_item{
+    display: flex;
+    background-color: blue;
+    width: 40px;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.login_submit{
+    display: flex;
+    width: 250px;
+    margin: auto;
+    gap: 7px;
+    margin-top: 15px;
+}
+p{
+    width: 200px;
+}
+.button_submit{
+    margin-top: 7px;
+    border-radius: 3px;
+    height: 30px;
+    width: 100px;
+    background-color: blue;
+    box-shadow: 0px 4px 2px 0px rgb(138, 138, 243);
+    color:white;
+}
+.checkmark{
+    position: absolute;
+    top:3px;
+    right: 70px;
+    height: 15px;
+    width: 15px;
+    border-radius: 50px;
+    background-color: blue;
+}
+input:checked ~ .checkmark {
+    background-color: red;
+}
+input:checked ~ .checkmark1 {
+    background-color: red;
+}
+input:checked ~ .checkmark2 {
+    background-color: red;
+}
+.button_radio {
+    right: 70px;
+    top:3px;
+    position: absolute;
+    cursor: pointer;
+}
+.checkmark1{
+    position: absolute;
+    right: 35px;
+    height: 15px;
+    width: 15px;
+    border-radius: 50px;
+    background-color: blue;
+}
+.checkmark2{
+    position: absolute;
+    right: 50px;
+    height: 15px;
+    width: 15px;
+    border-radius: 50px;
+    background-color: blue;
+
+}
+.button_radio1{
+    cursor: pointer;
+}
