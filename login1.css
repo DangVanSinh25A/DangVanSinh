@@ -94,15 +94,7 @@ p{
     border-radius: 50px;
     background-color: blue;
 }
-input:checked ~ .checkmark {
-    background-color: red;
-}
-input:checked ~ .checkmark1 {
-    background-color: red;
-}
-input:checked ~ .checkmark2 {
-    background-color: red;
-}
+
 .button_radio {
     right: 70px;
     top:3px;
@@ -117,15 +109,27 @@ input:checked ~ .checkmark2 {
     border-radius: 50px;
     background-color: blue;
 }
-.checkmark2{
-    position: absolute;
+#nav{
     right: 50px;
-    height: 15px;
-    width: 15px;
-    border-radius: 50px;
-    background-color: blue;
-
 }
+
 .button_radio1{
     cursor: pointer;
+}
+.checkmark:after,.checkmark1:after{
+    content: "";
+    position: absolute;
+    display: none;
+}
+input:checked ~ .checkmark:after , input:checked~.checkmark1:after{
+    display: block;
+}
+.checkmark:after,.checkmark1:after{
+    top:2px;
+    left: 5px;
+    width: 2px;
+    height: 7px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
 }
