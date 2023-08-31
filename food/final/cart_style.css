@@ -1,0 +1,98 @@
+*{
+  margin:0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+.title{
+  background-color: orange;
+  color: white;
+  margin-left: 20px;
+  height: 60px;
+}
+.cart {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  }
+  
+.cart .item {
+  background-color: #f2f2f2;
+}
+  
+.cart td, .cart th {
+  padding: 10px;
+  text-align: left;
+}
+  
+.cart th {
+  font-weight: bold;
+}
+  
+.cart th a img {
+  width: 100px;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+  
+.cart .in {
+  font-size: 12px;
+  color: gray;
+}
+  
+.cart .buttons_added {
+  display: flex;
+  align-items: center;
+}
+  
+.cart .buttons_added input[type="button"] {
+  width: 25px;
+  height: 25px;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  text-align: center;
+  background-color: #f2f2f2;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+  
+.cart .buttons_added input[type="button"]:hover {
+  background-color: #ddd;
+}
+  
+.cart .input-qty {
+  width: 40px;
+  padding: 5px;
+  margin: 0 5px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+  
+.cart .icon {
+  font-size: 18px;
+  color: orange;
+}
+  
+.cart button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+  
+.fa-window-close {
+  font-size: 18px;
+  color: rgb(173, 171, 168);
+}
+
+.plus-is-form{
+  height: 27px;
+  width: 30px;
+}
+
+.minus-is-form{
+  height: 27px;
+  width: 30px;
+}
