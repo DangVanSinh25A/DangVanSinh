@@ -1,0 +1,157 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 100%;
+    height: 100%;
+}
+.container_header{
+    width: 100%;
+    height: 130px;
+    background-color: green;
+}
+.all_wedsite{
+    height: 100%;
+    margin: auto;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.title{
+    color: white;
+    margin-top: 20px;
+}
+.sub_title{
+    color: white;
+}
+.container_card{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.card{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap:30px
+}
+.card_body{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+img{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+@media screen and (max-width:1366px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    .container{
+        width: 100%;
+        height: 100%;
+    }
+    .container_header{
+        width: 100%;
+        height: 130px;
+        background-color: green;
+    }
+    .all_wedsite{
+        height: 100%;
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .title{
+        color: white;
+        margin-top: 20px;
+    }
+    .sub_title{
+        color: white;
+    }
+    .container_card{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .card{
+        width: 90%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap:30px
+    }
+    .card_body{
+        display: flex;
+        flex-direction: column;
+        flex: 1px;
+        width: 100%;
+    }
+    img{
+        height: 250px;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+@media screen and (max-width:800px){
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    .container{
+        width: 100%;
+        height: 100%;
+    }
+    .container_header{
+        width: 100%;
+        height: 100px;
+        background-color: green;
+    }
+    .all_wedsite{
+        height: 100%;
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+    .title{
+        color: white;
+        margin-top: 20px;
+        font-size: 25px;
+    }
+    .sub_title{
+        color: white;
+        font-size: 15px;
+    }
+    .container_card{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .card{
+        width: 90%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .card_body{
+        display: flex;
+        flex-direction: column;
+        flex: 1px;
+        width: 100%;
+    }
+    img{
+        height: 250px;
+        width: 100%;
+        object-fit: cover;
+    }
+}
